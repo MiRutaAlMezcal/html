@@ -1,0 +1,358 @@
+body
+{
+width: 1700px;
+height: 1200px;
+background: white;
+margin: 0 auto;}
+#banner
+{
+  width: 1700px;
+  height: 300px;
+background: url(imagenes/BANNER.jpg);
+  float: left;
+  opacity = 1;
+}
+#menu
+{
+  width: 1690px;
+  height: 100px;
+  background: url("imagenes/menuu.jpg");
+
+  float: left;
+}
+UL#MENU
+{
+width:  1600px;
+height: 80px;
+text-align: center;
+padding: 0;
+}
+ul#menu li
+{
+  width:  300px;
+  height: 80px;
+  display:inline;
+}
+ul#menu li a
+{
+  background: black;
+  color:white;
+  font-size: 40px;
+  width:  300px;
+  height: 80px;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+ul#menu li a:hover
+{
+  background: red;
+}
+iframe #video
+{
+  margin-top: 100px;
+}
+#mapa
+{
+  margin-left: 300px;
+  margin-top: 100px;
+}
+#marques
+{
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#marques1
+{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#villasuso
+{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+#torres_mochas
+{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#tm1
+{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#moncada
+{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#jaramillo
+{
+  margin-left: 150px;
+
+}
+#escobalito
+{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+#pencaypiedra
+{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+#okui
+{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#contenido
+{
+  width: 1700px;
+  height: 600px;
+  background: url("imagenes/agave.jpg");
+  filter: opacity(1);
+  float: left;
+}
+#img
+{
+  width: 700px;
+  height: 720px;
+  margin-left: 260px;
+  margin-top: 20px;
+
+  float: left;
+}
+#video
+{
+  width: 700px;
+  height: 720px;
+
+  margin-top: 100px;
+
+  float: left;
+}
+
+
+#pie_de_pagina
+{
+  width: 1700px;
+  height: 100px;
+  background: url("imagenes/pie.jpg");
+  float: left;
+ }
+
+
+
+#inicio
+{
+  padding-left: 250PX;
+  float: right;
+  margin-right: 650PX;
+
+}
+#caja1
+{
+  width: 310px;
+  height: 450px;
+
+  float: left;
+  margin: 10px 15px ;
+}
+a#img1
+{
+  margin: 10px 20px;
+}
+a#img2
+{
+  margin: 10px 20px;
+}
+p2
+{
+  color:#254E6A;
+  font-family: arial;
+  font-size:15px;
+  font-weight: bold;
+  text-align: justify;
+  letter-spacing: 8px;
+  padding: 5px 2px;
+  background-color: white;
+filter: opacity(2);
+}
+#CuadroA
+{
+  width:540px;
+  height: 450px;
+    float:left;
+    margin: 10px 15px ;
+}
+p3
+{
+  color:#254E6A;
+  font-family: arial;
+  font-size:20px;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: normal;
+
+  padding: 5px 2px;
+  background-color: white;
+filter: opacity(2);
+}
+video#video
+{
+  margin: 10px 20px;
+}
+#Cuadrob
+{
+  width:400px;
+  height: 450px;
+
+    float:left;
+    margin: 10px 15px ;
+}
+p4
+{
+  color:#254E6A;
+  font-family: arial;
+  font-size:20px;
+  font-weight: bold;
+  text-align: justify;
+  letter-spacing: 8px;
+  padding: 5px 2px;
+  background-color: white;
+filter: opacity(2);
+}
+p1
+{
+  color:black;
+  font-weight: bold;
+  font-family: inherit;
+  font-size:21px;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 5px 2px;
+}
+
+p5
+{
+
+    color:white;
+    font-family: arial;
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: normal;
+    padding: 50px 50px;
+    margin: 30px 280px;
+  }
+  p5#contactos a
+  {
+
+    color:white;
+    margin: 50px 50px;
+    padding: 40px 50px;
+    text-decoration: none;
+  }
+  p5#contactos a:hover
+  {
+    background: red;
+  }
+  p6
+  {
+    color:blue;
+    font-family: arial;
+    font-size:12px;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 2px;
+    background-color: white;
+  filter: opacity(2);
+  }
+  from #pie_de_pagina
+  {
+
+  text-align: center;
+  paddig:0;
+  }
+#contactos
+{
+
+  color:white;
+  margin-left: 550px;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+#texto
+{
+  width: 900px;
+  height: 600px;
+  background: white;
+padding-left: 20px;
+padding-right: 20px;
+  margin-left:80px;
+  float: left;
+  opacity: .7;
+}
+#informacion
+{
+  width: 400px;
+  height: 600px;
+  background: white;
+padding-left: 20px;
+padding-right: 20px;
+  margin-left:600px;
+  float: left;
+  opacity:0.7;
+}
+form
+{
+  width: 380px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius:5px;
+
+}
+h3{
+  color:#FFF;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px
+}
+input, textarea
+{
+
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border:none;
+
+}
+textarea
+{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+#boton
+{
+  background: #31384A;
+  color: #fff;
+  padding: 20px
+}
+#boton:hover{
+cursor: pointer;
+}
+@media (max-width:480px) {
+  form{
+    width: 100%;
+  }
+
+}

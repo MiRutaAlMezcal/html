@@ -1,0 +1,80 @@
+<html>
+<head>
+  <!--Esto es un comentario-->
+  <title> Mi Ruta al Mezcal</title>
+  <meta charset="UTF-8"/>
+  <link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="estilos.css" type="text/css"/>
+<div id="banner">
+<div id="logo">
+<a id="img2" href="https://www.amazon.com.mx/?&_encoding=UTF8&tag=esmx-ntp-topsites-20&linkCode=ur2&linkId=921234327118e55965b223f56a93510e&camp=1789&creative=9325" img src="imagenes/logo.JPEGg"></a>
+</DIV>
+
+<div id="inicio">   <img src="imagenes/fondo1.png" width="500" height="300" /></div>
+
+</div>
+<div id="menu">
+<ul id="menu">
+<li><a href="mi_ruta_a_el_mezcal.html">Inicio</a></li>
+<li><a href="proceso_de_elaboracion.html">Proceso de elaboracion </a></li>
+<li><a href="servidor.html">Ruta</a></li>
+<li><a href="marcas.html">Marcas</a></li>
+<li><a href="info_contacto.html">Contactos</a></li>
+</ul>
+
+</div>
+
+  <div id="contenido">
+    <div id="img">
+    <form>
+    <img src="imagenes/foto1.jpeg" width="400" height="500" id="foto" />
+
+
+    <br><br>
+    <input type="button" value="   <<   " class="at" onclick="atras()"/>
+    <input type="button" value="   >>   " class="ade" onclick="adelante()"/>
+
+    <script>
+      var num=1;
+      function adelante(){
+        num++;
+        if(num>7)
+          num=1;
+        var foto = document.getElementById("foto");
+        foto.src = "imagenes/foto"+num+".jpeg";
+
+      }
+      function atras(){
+        num--;
+        if(num<1)
+          num=5;
+        var foto = document.getElementById("foto");
+        foto.src = "imagenes/foto"+num+".jpg";
+      }
+    </script>
+    </form>
+
+  </div>
+  <div id="videp">
+    <br><br><br><br>
+  <iframe width="600" height="415" margin-top="100" src="https://www.youtube.com/embed/paKRvrhJ8s0"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+</div>
+</div>
+  <div id="pie_de_pagina">
+      <div id="contactos">
+      <a href="https://www.instagram.com/mirutaalmezcal/">
+         <img src="imagenes/instagram.png"/> </a>
+      <a href="https://www.facebook.com/Mi-Ruta-Al-Mezcal-102427805767041/reviews/?ref=page_internal">
+        <img src="imagenes/facebook.png"/></a>
+        <a href="https://www.youtube.com/channel/UCiPwxB65N3mA4v25Tl0w35g"><img src="imagenes/youtube.png"/></a>
+        <a href="https://twitter.com/MiRutaAlMezcal">
+           <img src="imagenes/twitter.png"/> </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
